@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s}from"./chunks/framework.RRduUuAx.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ps5/files.md","filePath":"ps5/files.md","lastUpdated":1777870860000}'),a={name:"ps5/files.md"};function r(o,c,n,p,i,d){return t(),s("div")}const _=e(a,[["render",r]]);export{l as __pageData,_ as default};
