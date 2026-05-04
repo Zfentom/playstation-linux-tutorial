@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   ignoreDeadLinks: true,
+
   title: 'PlayStation Linux Guide',
   description: 'Linux installation guides for PS4 and PS5 systems',
 
@@ -21,12 +22,9 @@ export default defineConfig({
     // ---------------- NAVIGATION ----------------
     nav: [
       { text: '🏠 Home', link: '/' },
-
       { text: '🎮 PS4 Guide', link: '/ps4/information' },
       { text: '🎮 PS5 Guide', link: '/ps5/information' },
-
       { text: '🛠️ Issues', link: '/issues' },
-
       {
         text: '📚 More',
         items: [
@@ -46,52 +44,25 @@ export default defineConfig({
           items: [
             { text: '📌 Information', link: '/ps4/information' },
             { text: '⚙️ Setup', link: '/ps4/setup' },
-            { text: '📁 Files', link: '/ps4/files' },
-
             {
               text: '💿 Installation',
-              link: '/ps4/installation',
               collapsed: false,
               items: [
                 {
                   text: '📦 Installation Variants',
-                  link: '/ps4/installation-variants',
-                  collapsed: true,
+                  collapsed: false,
                   items: [
-                    {
-                      text: '💾 Internal Install',
-                      link: '/ps4/internal-installation'
-                    },
-                    {
-                      text: '🤖 External Install Scripted',
-                      link: '/ps4/external-installation-scripted'
-                    },
-                    {
-                      text: '🛠️ External Install Manual',
-                      link: '/ps4/external-installation-manual'
-                    }
+                    { text: '💾 Internal Install', link: '/ps4/internal-installation' },
+                    { text: '🤖 External Install Scripted', link: '/ps4/external-installation-scripted' },
+                    { text: '🛠️ External Install Manual', link: '/ps4/external-installation-manual' }
                   ]
                 }
               ]
             },
-
             { text: '🚀 Post Installation', link: '/ps4/post-install' },
-            { text: '🏁 Finish', link: '/ps4/ending' }
-          ]
-        },
-
-        {
-          text: '💔 Common Issues',
-          collapsed: false,
-          items: [
-            {
-              text: '🩹 Common Issues',
-              link: '/ps4/issues'
-            },
-            {
-              text: '⚡ Baikal Issues',
-              link: '/ps4/baikal-issues'
-            }
+            { text: '🏁 Finish', link: '/ps4/ending' },
+            { text: '🧩 Game compatibility', link: '/ps4/games' },
+            { text: '💜 Distro DIY', link: '/ps4/distrodiy' }
           ]
         }
       ],
@@ -103,32 +74,26 @@ export default defineConfig({
           items: [
             { text: '📌 Information', link: '/ps5/information' },
             { text: '⚙️ Setup', link: '/ps5/setup' },
-            { text: '📁 Files', link: '/ps5/files' },
-
             {
               text: '💿 Installation',
-              link: '/ps5/installation',
               collapsed: false,
               items: [
-                {
-                  text: '📦 Installation Variants',
-                  link: '/ps5/installation-variants',
-                  collapsed: true,
-                  items: [
-                    {
-                      text: '💾 Internal Install',
-                      link: '/ps5/internal-installation'
-                    },
-                    {
-                      text: '🔌 External Install',
-                      link: '/ps5/external-installation'
-                    }
-                  ]
-                }
+                { text: '💾 Internal Install', link: '/ps5/internal-installation' },
+                { text: '🔌 External Install', link: '/ps5/external-installation' }
               ]
             },
-
-            { text: '🚀 Post Installation', link: '/ps5/postinstall' },
+            {
+              text: '🧩 Compatibility',
+              collapsed: true,
+              items: [
+                { text: '🖥️ Monitors', link: '/ps5/compatibility/monitors' },
+                { text: '🎥 Capture Cards', link: '/ps5/compatibility/capture-cards' },
+                { text: '💽 M.2 SSDs', link: '/ps5/compatibility/m2-ssds' },
+                { text: '🧰 Other Hardware', link: '/ps5/compatibility/other-hardware' },
+                { text: '🔧 Drivers', link: '/ps5/compatibility/drivers' }
+              ]
+            },
+            { text: '🚀 Post Installation', link: '/ps5/post-install' },
             { text: '🏁 Finish', link: '/ps5/ending' }
           ]
         }
@@ -157,7 +122,6 @@ export default defineConfig({
             { text: '🩹 Troubleshooting', link: '/issues' }
           ]
         },
-
         {
           text: '☠️ Legacy',
           collapsed: true,
@@ -168,7 +132,6 @@ export default defineConfig({
       ]
     },
 
-    // ---------------- SOCIAL ----------------
     socialLinks: [
       {
         icon: 'github',
@@ -176,13 +139,11 @@ export default defineConfig({
       }
     ],
 
-    // ---------------- FOOTER ----------------
     footer: {
       message: 'Released under Apache 2.0 License',
       copyright: 'Copyright © 2025 FlyingPhantom'
     },
 
-    // ---------------- LAST UPDATED ----------------
     lastUpdated: {
       text: 'Updated on'
     }

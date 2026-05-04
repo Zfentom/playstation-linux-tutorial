@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as s}from"./chunks/framework.RRduUuAx.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ps4/distrodiy.md","filePath":"ps4/distrodiy.md","lastUpdated":null}'),a={name:"ps4/distrodiy.md"};function r(o,d,i,n,c,p){return e(),s("div")}const m=t(a,[["render",r]]);export{l as __pageData,m as default};
