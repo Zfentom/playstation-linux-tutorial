@@ -1,5 +1,9 @@
 # SSD support
 
+> [!DANGER]
+> It has been decided that this will not be updated until more info has been gathered because its hard to keep up with updating the info if nobody makes pr's
+
+
 | SSD Model / Name | What it takes to make it work |
 | :--- | :--- |
 | **PCIe Gen 4 SSDs** | **General Requirement:** Only Gen4 drives are supported. **PCIe Gen3 drives do NOT work.** |

@@ -1,5 +1,8 @@
 # Support for other hardware
 
+> [!DANGER]
+> It has been decided that this will not be updated until more info has been gathered because its hard to keep up with updating the info if nobody makes pr's
+
 | Hardware Type / Name / Model | What it takes to make it work |
 | :--- | :--- |
 | **Startech 10G2A1C25EPD-USB-HUB** | Plug and play. 2.5GBe Ethernet and USB ports fully utilized by Linux. |

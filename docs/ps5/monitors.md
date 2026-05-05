@@ -1,5 +1,9 @@
 # Monitor support
 
+> [!DANGER]
+> It has been decided that this will not be updated until more info has been gathered because its hard to keep up with updating the info if nobody makes pr's
+
+
 | Monitor Model / Name | What it takes to make it work |
 | :--- | :--- |
 | **Dell U2515H** | To achieve **2560x1440@60Hz**, you must remove `video=DP-1:1920x1080@60` from the `cmdline.txt` file. Standard **1080p@60Hz** works via forced mode. |

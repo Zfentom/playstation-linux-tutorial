@@ -7,6 +7,9 @@ export default defineConfig({
   description: 'Linux installation guides for PS4 and PS5 systems',
 
   head: [
+    // The 'head' array requires the full path including the 'base' string
+    ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.ico' }], 
+    
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'description', content: 'PS4 and PS5 Linux installation, setup, and optimization guides.' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
@@ -19,18 +22,22 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    // VitePress automatically prepends the 'base' path to themeConfig.logo, 
+    // so we only need the path relative to the 'public' folder here.
+    logo: '/favicon/favicon.ico',
+
     // ---------------- NAVIGATION ----------------
     nav: [
-      { text: '🏠 Home', link: '/' },
-      { text: '🎮 PS4 Guide', link: '/ps4/information' },
-      { text: '🎮 PS5 Guide', link: '/ps5/information' },
-      { text: '🛠️ Issues', link: '/issues' },
+      { text: ' Home', link: '/' },
+      { text: ' PS4 Guide', link: '/ps4/information' },
+      { text: ' PS5 Guide', link: '/ps5/information' },
+      { text: ' Issues', link: '/issues' },
       {
-        text: '📚 More',
+        text: ' More',
         items: [
-          { text: '⚡ Performance Tweaks', link: '/miscellaneous/performance' },
-          { text: '🔧 Kernel Guide', link: '/miscellaneous/kernel' },
-          { text: '🎮 Emulation', link: '/miscellaneous/emulation' }
+          { text: ' Performance Tweaks', link: '/miscellaneous/performance' },
+          { text: ' Kernel Guide', link: '/miscellaneous/kernel' },
+          { text: ' Emulation', link: '/miscellaneous/emulation' }
         ]
       }
     ],
@@ -86,16 +93,18 @@ export default defineConfig({
               text: '🧩 Compatibility',
               collapsed: true,
               items: [
-		{ text: '🖥️ Monitors', link: '/ps5/monitors' },
-		{ text: '🎥 Capture Cards', link: '/ps5/capture-cards' },
-		{ text: '💽 M.2 SSDs', link: '/ps5/m2-ssds' },
-		{ text: '🧰 Other Hardware', link: '/ps5/other-hardware' },
-		{ text: '🔧 Drivers', link: '/ps5/drivers' }
+                { text: '🖥️ Monitors', link: '/ps5/monitors' },
+                { text: '🎥 Capture Cards', link: '/ps5/capture-cards' },
+                { text: '💽 M.2 SSDs', link: '/ps5/m2-ssds' },
+                { text: '🧰 Other Hardware', link: '/ps5/other-hardware' },
+                { text: '🔧 Drivers', link: '/ps5/drivers' }
               ]
             },
             { text: '🚀 Post Installation', link: '/ps5/post-install' },
             { text: '🏁 Finish', link: '/ps5/ending' },
-	    { text: '❓ FAQ', link: '/ps5/faq' }
+            { text: '❓ FAQ', link: '/ps5/faq' },
+            { text: '🎮 Console Experience', link: '/ps5/console-experience' },
+            { text: '🔒 Known Limitations', link: '/ps5/limitations' }
           ]
         }
       ],
@@ -111,23 +120,6 @@ export default defineConfig({
             { text: '📊 Benchmarks', link: '/miscellaneous/benchmark' },
             { text: '🧩 Mesa Drivers', link: '/miscellaneous/mesa' },
             { text: '📡 Exploit Host Setup', link: '/miscellaneous/exploit-host' }
-          ]
-        }
-      ],
-
-      '/': [
-        {
-          text: '💔 General Issues',
-          collapsed: false,
-          items: [
-            { text: '🩹 Troubleshooting', link: '/issues' }
-          ]
-        },
-        {
-          text: '☠️ Legacy',
-          collapsed: true,
-          items: [
-            { text: '📚 Preservation Content', link: '/legacy' }
           ]
         }
       ]

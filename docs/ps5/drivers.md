@@ -1,5 +1,9 @@
 # Driver support
 
+> [!DANGER]
+> It has been decided that this will not be updated until more info has been gathered because its hard to keep up with updating the info if nobody makes pr's
+
+
 | Component / Driver | What it takes to make it work |
 | :--- | :--- |
 | **LAN / Wi-Fi Drivers** | No "off the shelf" functional drivers. Most require manual implementation. |
