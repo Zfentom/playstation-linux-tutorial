@@ -86,15 +86,16 @@ export default defineConfig({
               text: '🧩 Compatibility',
               collapsed: true,
               items: [
-                { text: '🖥️ Monitors', link: '/ps5/compatibility/monitors' },
-                { text: '🎥 Capture Cards', link: '/ps5/compatibility/capture-cards' },
-                { text: '💽 M.2 SSDs', link: '/ps5/compatibility/m2-ssds' },
-                { text: '🧰 Other Hardware', link: '/ps5/compatibility/other-hardware' },
-                { text: '🔧 Drivers', link: '/ps5/compatibility/drivers' }
+		{ text: '🖥️ Monitors', link: '/ps5/monitors' },
+		{ text: '🎥 Capture Cards', link: '/ps5/capture-cards' },
+		{ text: '💽 M.2 SSDs', link: '/ps5/m2-ssds' },
+		{ text: '🧰 Other Hardware', link: '/ps5/other-hardware' },
+		{ text: '🔧 Drivers', link: '/ps5/drivers' }
               ]
             },
             { text: '🚀 Post Installation', link: '/ps5/post-install' },
-            { text: '🏁 Finish', link: '/ps5/ending' }
+            { text: '🏁 Finish', link: '/ps5/ending' },
+	    { text: '❓ FAQ', link: '/ps5/faq' }
           ]
         }
       ],
