@@ -23,6 +23,8 @@ These are the original kernel developers, who did the hard work to port the kern
 	- codedwrench (based on fail0verflow, psxitateam, eeply, valeryy, mircoho)
 - 6.15 kernel
 	- crashniels with 2 patches from mircoho (fastboot and ethernet kp fixes) (based on fail0verflow - psxitateam  - eeply - valeryy - mircoho - codedwrench)
+- 7.0 kernel
+	- rmuxnet with a port for 7.0 and several additional patches to make experience better
 
 If you want, you can check out their repos:
 - [marcan (fail0verflow) ](https://github.com/fail0verflow/ps4-linux)
@@ -43,6 +45,8 @@ If you want, you can check out their repos:
 	- Ported newer kernel versions.
 - [feeRnt](https://github.com/feeRnt/ps4-linux-12xx) (Package)
 	- Hosts and maintains the PS4 Linux kernel sources on GitHub.
+- [rmux](https://github.com/rmuxnet)
+	- Updated kernel version and improved baikal support.
 
 ### Additional credits
 - [saya](https://www.youtube.com/@saya7068)

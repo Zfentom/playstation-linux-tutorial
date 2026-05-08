@@ -10,13 +10,8 @@ next:
 # Internal HDD installation
 Here you'll setup the internal HDD for installation of a Linux distro.
 
-> [!CAUTION]
-> Make sure you are NOT following this on a console with a Baikal southbridge.
-> 
-> If you proceed, either it won't boot, or you'll inevitably corrupt your whole drive and loose all your data!
-
 > [!WARNING]
-> This shit is slow on an HDD. Be careful and prepare your balls for imminent explosion.
+> This shit is fucking slow on an HDD.
 > 
 > However, if you have swapped your internal HDD for an SSD, this doesn't apply.
 
@@ -51,7 +46,6 @@ Now that the storage is covered, here comes the moment of truth. You'll be sent 
 	- Check how much free space you have, don't fill up your drive as the PS4 will only report the used amount of space inside the partition, and not the total partition size!
 	- If it fails, check your initramfs, or go to the [Installation Issues](/issues#installation-issues)
 
-Hydrate yourself while you wait. It'll take a while.
 
 It should already boot into the desktop. If it doesn't, run:
 ```bash
@@ -60,5 +54,3 @@ resume-boot
 
 <!-- @include: /_includes/resume-boot-warnings.md -->
 
-## Finale
-Go now, conquer the finale. Also, read the post-credit stuff.
