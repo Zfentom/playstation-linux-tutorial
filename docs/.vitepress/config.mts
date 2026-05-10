@@ -27,6 +27,7 @@ export default defineConfig({
           items: [
             { text: '📌 Information', link: '/ps4/information' },
             { text: '⚙️ Setup & Requirements', link: '/ps4/setup' },
+            { text: '📁 Files', link: '/ps4/files' },
             {
               text: '💿 Installation',
               collapsed: false,
@@ -35,15 +36,14 @@ export default defineConfig({
                 { text: 'External (Scripted)', link: '/ps4/external-installation-scripted' },
                 { text: 'External (Manual)', link: '/ps4/external-installation-manual' },
                 { text: '🚀 Post-Installation', link: '/ps4/post-install' },
-		{ text: '⚠️ Issues', link: '/ps4/issues' }
+                { text: '⚠️ Issues', link: '/ps4/issues' }
               ]
             },
             {
               text: '💡 Knowledge Base',
               collapsed: false,
               items: [
-                { text: '❓ FAQ', link: '/ps4/faq' },
-                { text: '🔒 Known Limitations', link: '/ps4/limitations' }
+                { text: '🔒 FAQ', link: '/ps4/faq' }
               ]
             },
             {
@@ -59,7 +59,7 @@ export default defineConfig({
               text: '🛠️ Advanced',
               collapsed: true,
               items: [
-                { text: 'Kernel Compilation', link: '/ps4/kernel' },
+                { text: 'UART', link: '/ps4/uart' },
                 { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
                 { text: '💜 Distro DIY', link: '/ps4/distrodiy' }
               ]
