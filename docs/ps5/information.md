@@ -9,17 +9,18 @@ This tutorial will cover how to install Linux on your PS5. It is created to make
 ::: details Which consoles are compatible?
 ps5-linux is currently only supported on PS5 Phat on 3.xx and 4.xx firmwares
 
-| Firmware | M.2 |
-|----------|-----|
-| 4.51 | ✔️ |
-| 4.50 | ✔️ |
-| 4.03 | ✔️ |
-| 4.02 | ✔️ |
-| 4.00 | ✔️ |
-| 3.21 | ❌ |
-| 3.20 | ❌ |
-| 3.10 | ❌ |
-| 3.00 | ❌ |
+| Firmware | Support | M.2 |
+|----------|---------|-----|
+| 6.02 | 🚧 | ✔️ |
+| 4.51 | ✔️ | ✔️ |
+| 4.50 | ✔️ | ✔️ |
+| 4.03 | ✔️ | ✔️ |
+| 4.02 | ✔️ | ✔️ |
+| 4.00 | ✔️ | ✔️ |
+| 3.21 | ✔️ | ❌ |
+| 3.20 | ✔️ | ❌ |
+| 3.10 | ✔️ | ❌ |
+| 3.00 | ✔️ | ❌ |
 
 - Support for 1.xx and 2.xx firmwares may be added in the future, but we will not prioritize this effort.
 

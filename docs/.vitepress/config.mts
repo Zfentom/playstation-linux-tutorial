@@ -35,15 +35,15 @@ export default defineConfig({
                 { text: 'Internal Install', link: '/ps4/internal-installation' },
                 { text: 'External (Scripted)', link: '/ps4/external-installation-scripted' },
                 { text: 'External (Manual)', link: '/ps4/external-installation-manual' },
-                { text: '🚀 Post-Installation', link: '/ps4/post-install' },
-                { text: '⚠️ Issues', link: '/ps4/issues' }
+                { text: 'Post-Installation', link: '/ps4/post-install' },
+                { text: 'Issues', link: '/ps4/issues' }
               ]
             },
             {
               text: '💡 Knowledge Base',
               collapsed: false,
               items: [
-                { text: '🔒 FAQ', link: '/ps4/faq' }
+                { text: 'FAQ', link: '/ps4/faq' }
               ]
             },
             {
@@ -61,7 +61,7 @@ export default defineConfig({
               items: [
 		{ text: 'UART', link: '/ps4/uart' },
                 { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
-                { text: '💜 Distro DIY', link: '/ps4/distrodiy' }
+                { text: 'Distro DIY', link: '/ps4/distrodiy' }
               ]
             },
             { text: '🏁 Conclusion', link: '/ps4/ending' }
@@ -79,29 +79,29 @@ export default defineConfig({
               text: '💿 Installation',
               collapsed: false,
               items: [
-                { text: '💾 Internal Install', link: '/ps5/internal-installation' },
-                { text: '🔌 External Install', link: '/ps5/external-installation' },
-                { text: '🚀 Post-Installation', link: '/ps5/post-install' }
+                { text: 'Internal Install', link: '/ps5/internal-installation' },
+                { text: 'External Install', link: '/ps5/external-installation' },
+                { text: 'Post-Installation', link: '/ps5/post-install' }
               ]
             },
             {
               text: '🧩 Compatibility & Hardware',
               collapsed: false,
               items: [
-                { text: '🖥️ Monitors', link: '/ps5/monitors' },
-                { text: '🎥 Capture Cards', link: '/ps5/capture-cards' },
-                { text: '💽 M.2 SSDs', link: '/ps5/m2-ssds' },
-                { text: '🧰 Other Hardware', link: '/ps5/other-hardware' },
-                { text: '🔧 Drivers', link: '/ps5/drivers' }
+                { text: 'Monitors', link: '/ps5/monitors' },
+                { text: 'Capture Cards', link: '/ps5/capture-cards' },
+                { text: 'M.2 SSDs', link: '/ps5/m2-ssds' },
+                { text: 'Other Hardware', link: '/ps5/other-hardware' },
+                { text: 'Drivers', link: '/ps5/drivers' }
               ]
             },
             {
               text: '💡 Knowledge Base',
               collapsed: false,
               items: [
-                { text: '❓ FAQ', link: '/ps5/faq' },
-                { text: '🎮 Console Experience', link: '/ps5/console-experience' },
-                { text: '🔒 Known Limitations', link: '/ps5/limitations' }
+                { text: 'FAQ', link: '/ps5/faq' },
+                { text: 'Console Experience', link: '/ps5/console-experience' },
+                { text: 'Known Limitations', link: '/ps5/limitations' }
               ]
             },
             { text: '🏁 Conclusion', link: '/ps5/ending' }
