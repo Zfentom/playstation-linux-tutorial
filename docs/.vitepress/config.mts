@@ -16,8 +16,8 @@ export default defineConfig({
     logo: '/favicon/favicon.ico',
     nav: [
       { text: '🏠 Home', link: '/' },
-      { text: '🎮 PS4 Guide', link: '/ps4/information' },
-      { text: '🔥 PS5 Guide', link: '/ps5/information' },
+      { text: 'Playstation 4 Guide', link: '/ps4/information' },
+      { text: 'Playstation 5 Guide', link: '/ps5/information' },
     ],
 
     sidebar: {
@@ -59,7 +59,6 @@ export default defineConfig({
               text: '🛠️ Advanced',
               collapsed: true,
               items: [
-                { text: 'UART', link: '/ps4/uart' },
                 { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
                 { text: '💜 Distro DIY', link: '/ps4/distrodiy' }
               ]
@@ -111,7 +110,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/FlyingPhantom/ps4-linux-tutorial/' }
+      { icon: 'github', link: 'https://github.com/FlyingPhantom/playstation-linux-tutorial/' }
     ],
 
     editLink: {
