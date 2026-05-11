@@ -59,6 +59,7 @@ export default defineConfig({
               text: '🛠️ Advanced',
               collapsed: true,
               items: [
+		{ text: 'UART', link: '/ps4/uart' },
                 { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
                 { text: '💜 Distro DIY', link: '/ps4/distrodiy' }
               ]
@@ -114,7 +115,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/FlyingPhantom/ps4-linux-tutorial/edit/main/docs/:path',
+      pattern: 'https://github.com/FlyingPhantom/playstation-linux-tutorial/edit/main/docs/',
       text: 'Edit this page on GitHub'
     },
 
