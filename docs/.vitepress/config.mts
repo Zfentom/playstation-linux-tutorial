@@ -52,7 +52,8 @@ export default defineConfig({
               items: [
                 { text: 'Game Compatibility', link: '/ps4/games' },
                 { text: 'Emulation Guide', link: '/ps4/emulation' },
-                { text: 'Performance Tweaks', link: '/ps4/performance' }
+                { text: 'Performance Tweaks', link: '/ps4/performance' },
+                { text: 'Benchmark' link: '/ps4/benchmark' }
               ]
             },
             {
