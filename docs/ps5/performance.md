@@ -1,14 +1,11 @@
-# Improve Performance and Responsiveness
+# Improve Performance and Responsiveness 
 
-> [!NOTE]
-> All of the changes to the Playstation 4 Fat or Slim can be applied to the Pro if you want to squeeze in more performance
-
-# Proton optimizations
+# 2 - Proton optimizations
 
 - For proton we can use either [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
 
 > [!TIP]
-> Instead of just installing these compile them manually using custom -march and -mtune flags, those being *-march=btver2* and *-mtune=btver2* to apply btver2 optimizations.
+> Instead of just installing these compile them manually using custom -march and -mtune flags, those being *-march=znver2* and *-mtune=znver2* to apply znver2 optimizations.
 
 - For Proton-Sarek you can use `PROTON_SAREK_PROFILE=agg` profile to gain performance in some games.
 
@@ -16,26 +13,27 @@
 
 ::: details What do these 2 actually do?
 - The **agg** stands for "aggressive" and disables graphically intensive features to gain performance. More on that at [Proton-Sarek profiles section](#).
-- **NTSYNC** is a Linux driver introduced in kernel 6.14 that implements some of the NT Kernel (the kernel Windows still uses today) API calls to dramatically reduce overhead when running Windows games through Wine/Proton. It can give 15–40 % more FPS in CPU-bound titles on PS4 Linux.
+- **NTSYNC** is a Linux driver introduced in kernel 6.14 that implements some of the NT Kernel (the kernel Windows still uses today) API calls to dramatically reduce overhead when running Windows games through Wine/Proton.
 :::
+
 
 # Feral Gamemode
 
 Feral Gamemode is a piece of software that optimizes system performance for gaming by temporarily adjusting settings like CPU priority and I/O operations.
 
-On Arch and arch based distros you can install it by running these commands:
+On ubuntu you can install it by running these commands:
 
 ```bash
-sudo pacman -S gamemode --noconfirm
+sudo add-apt-repository ppa:samoilov-lex/gamemode
+sudo apt install gamemode
 ```
 
 You can use it by using ``gamemoderun %command%`` in steam or ``gamemoderun *game*`` outside of steam.
 
 
-# DE/WM Optimizations
+# 3 - DE/WM Optimizations
 
-- The Playstation Fat and Slim are significantly weaker compared to the Pro model therefore you cannot run most modern Desktop environments so here will be listed which you should use that have low ram usage and won't lag on the console.
-
+While these are not really "optimizations" Windows Managers and some Desktop Enviroments can reduce ram usage and make the system more responsive, while these may not have a significant impact on your performance or have any at all the lesser ram usage and minimalism may appeal to some
 
 ::: details  Xorg based Dekstop enviroments:
 		

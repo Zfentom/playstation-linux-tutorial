@@ -57,13 +57,13 @@
 <div class="button-container">
 
   <a href="/playstation-linux-tutorial/ps4/information" class="guide-card">
-    <img src="/ps4.png" alt="PS4 Pro" class="guide-img" />
+    <img src="/ps4.png" loading="lazy" alt="PS4 Pro" class="guide-img" />
     <div class="guide-title">PS4 Guide</div>
     <div class="guide-desc">Fat, Slim, and Pro models</div>
   </a>
 
   <a href="/playstation-linux-tutorial/ps5/information" class="guide-card">
-    <img src="/ps5.png" alt="PS5" class="guide-img" />
+    <img src="/ps5.png "loading="lazy" alt="PS5" class="guide-img" />
     <div class="guide-title">PS5 Guide</div>
     <div class="guide-desc">Digital and Disc versions</div>
   </a>
