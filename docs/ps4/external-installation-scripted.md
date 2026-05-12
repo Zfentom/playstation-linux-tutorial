@@ -22,7 +22,7 @@ Put the kernel (bzImage, and the bootargs if you need it), initramfs (initramfs.
 
 ### Manual format for big drives
 If the drive is larger than 32GB, Windows will dastardly act like it can't format it in FAT32, but only in NTFS or ExFAT, which is just wrong, as FAT32 supports up to 2TB drives.
-To fix it, go ahead and download the mythical [Rufus](https://rufus.ie) program.
+To fix it, go ahead and download s[Rufus](https://rufus.ie).
 
 - Select "List USB Hard Drives"
 - Select "Non bootable" as a type of format
@@ -42,7 +42,7 @@ Now that the storage is covered, here comes the moment of truth. You'll be sent 
 <img src="/screenshots/rescue-shell.png" width="80%">
 
 - Type `install-psxitarch.sh`
-	- If it fails, go to the [Installation Issues](/issues#installation-issues), or use the [alternative method](/external-installation-manual).
+	- If it fails, go to the [Installation Issues](/ps4/issues#installation-issues), or use the [alternative method](/ps4/external-installation-manual).
 
 Hydrate yourself while you wait. It'll take a while.
 

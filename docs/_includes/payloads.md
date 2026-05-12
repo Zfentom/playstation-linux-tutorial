@@ -45,7 +45,7 @@ If the website doesn't work, use the Payload Guest local method below.
 ### Local payloads
 If you so desire, or you can't launch it from the web browser for some reason, it's possible to load these payloads locally.
 
-In order to do that, you need to download them [here](https://github.com/ArabPixel/ps4-linux-payloads/releases/).
+In order to do that, you need to download them [here](https://github.com/rmuxnet/ps4-linux-payloads/releases/tag/v42).
 
 #### Local payloads setup
 - Install "Payload Guest" or similar app on your PS4 to load the payloads locally
