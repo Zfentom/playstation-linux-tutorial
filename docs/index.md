@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Playstation Linux Tutorial"
   text: "A tutorial that teaches YOU how to setup linux on your playstation 4 or 5"
-  tagline: Made my FlyingPhantom
+  tagline: Made my Zfentom
   actions:
     - theme: brand
       text: 🏁 Let's start!
