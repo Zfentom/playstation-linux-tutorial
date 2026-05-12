@@ -22,7 +22,7 @@ Put the kernel (bzImage, and the bootargs if you need it), initramfs (initramfs.
 
 ### Manual format for big drives
 If the drive is larger than 32GB, Windows will dastardly act like it can't format it in FAT32, but only in NTFS or ExFAT, which is just wrong, as FAT32 supports up to 2TB drives.
-To fix it, go ahead and download s[Rufus](https://rufus.ie).
+To fix it, go ahead and download [Rufus](https://rufus.ie).
 
 - Select "List USB Hard Drives"
 - Select "Non bootable" as a type of format
