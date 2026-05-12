@@ -27,7 +27,7 @@ Note down what you see in "Settings -> System Information":
 - Southbridge
 - Your GoldHEN or ps4hen version
 
-<img src="/screenshots/system-info.png" loading="lazy" width="75%">
+<img src="/screenshots/system-info.webp" loading="lazy" width="75%">
 
 In the example case, the latest version of GoldHEN is used (minimum for this guide is v2.4b18.5), running on a Belize PS4 Slim.
 
@@ -44,7 +44,7 @@ In order to input text on your PS4, you can't use the PS4 built in keyboard, as 
 #### Payload server settings
 Remember to check the GoldHEN "Server" settings (or ps4hen's equivalent if you're using that) so that they are both enabled:
 
-<img src="/screenshots/payload-server-conf.png" loading="lazy" width="75%">
+<img src="/screenshots/payload-server-conf.webp" loading="lazy" width="75%">
 
 These are required to be able to move files and load Linux later into the guide.
 ### Settings
@@ -53,9 +53,9 @@ However, as some issues may arise on certain consoles, you should still go and t
 #### "Audio and Display" settings
 ##### Resolution
 
-<img src="/screenshots/settings-sound-and-screen.png" loading="lazy" width="75%">
+<img src="/screenshots/settings-sound-and-screen.webp" loading="lazy" width="75%">
 
-<img src="/screenshots/resolution.png" loading="lazy" width="75%">
+<img src="/screenshots/resolution.webp" loading="lazy" width="75%">
 
 - Set your resolution to 1080p (or 720p)
 	- 4K may not work on PS4 Pro. Try 1080p first.
@@ -63,7 +63,7 @@ However, as some issues may arise on certain consoles, you should still go and t
 
 ##### RGB Color gamut
 
-<img src="/screenshots/rgb-range.png" loading="lazy" width="75%">
+<img src="/screenshots/rgb-range.webp" loading="lazy" width="75%">
 
 - Set your RGB color gamut
 	- It may be automatically set to "Limited" even if your display supports "Full".
@@ -71,8 +71,8 @@ However, as some issues may arise on certain consoles, you should still go and t
 
 #### "System" settings
 
-<img src="/screenshots/settings-system.png" loading="lazy" width="75%">
-<img src="/screenshots/hdcp-and-device-link.png" loading="lazy" width="75%">
+<img src="/screenshots/settings-system.webp" loading="lazy" width="75%">
+<img src="/screenshots/hdcp-and-device-link.webp" loading="lazy" width="75%">
 
 - Check your internet connection
 	- Some models have issues if they aren't already connected to the internet.

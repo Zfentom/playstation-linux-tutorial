@@ -23,7 +23,7 @@ FTP to your PS4. Go to the `/data/` folder, and create the folder `/linux/boot/`
 > [!NOTE]
 > Files sent via FTP can transfer incorrectly, especially if overwritten. In that case, try to move them using a USB drive.
 
-<img src="/screenshots/internal-drive-conf.png" loading="lazy" width="50%">
+<img src="/screenshots/internal-drive-conf.webp" loading="lazy" width="50%">
 
 Then, go to `/user/system/`, create a folder called `boot`, and paste your distro in there. Remember that it needs to be called `psxitarch.tar.gz` or `xz`!
 
@@ -39,7 +39,7 @@ import Payloads from '../_includes/payloads.md'
 ## Installation commands
 Now that the storage is covered, here comes the moment of truth. You'll be sent to the Rescue Shell, which will look like this:
 
-<img src="/screenshots/rescue-shell.png" loading="lazy" width="80%">
+<img src="/screenshots/rescue-shell.webp" loading="lazy" width="80%">
 
 - Type `install-linux-hdd.sh` or `linux-install-hdd.sh`
 - Type how much storage you want to use for the installation

@@ -23,7 +23,7 @@ Follow these steps:
 	- If you use the PS4 as a server after installation, switch to one of the server payloads for more system RAM.
 
 
-<img src="/screenshots/psfree-payloads.jpg" width="75%">
+<img src="/screenshots/psfree-payloads.webp" width="75%">
 :::
 
 ::: details Alternative website (FW 5.05+)
@@ -31,7 +31,7 @@ Follow these steps:
 > You MUST use a 1GB VRAM payload for installation and first boot. Afterwards, 2GB is recommended.
 
 
-<img src="/screenshots/ps4boot-payloads.png" width="75%">
+<img src="/screenshots/ps4boot-payloads.webp" width="75%">
 
 Even though this website is probably not maintained anymore it'll stay here, as the newer website doesn't work on low firmwares.
 - [ps4boot.github.io](https://ps4boot.github.io/) (5.05/6.72/9.60) (Webkit method)
