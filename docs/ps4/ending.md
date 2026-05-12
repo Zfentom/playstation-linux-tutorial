@@ -1,11 +1,8 @@
 # Finishing up
 And you're done! If this guide was helpful, you can star it on GitHub and share it!
 
-> [!TIP]
-> I highly recommend continuing to the ["Post Installation" setup](/post-install), to change language and setup better memory management!
-
 > [!NOTE]
-> For any problems, [check the issues page](/issues)!
+> For any problems, [check the issues page](/ps4/issues)!
 
 ## Credits
 

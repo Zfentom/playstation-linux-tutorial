@@ -1,12 +1,12 @@
 # Getting the files
 
 > [!WARNING]
-> Some of the following links look sketchy, but the community is a divided mess for various reasons one of them being language barrier, and not many people work on the ps4. Refer to the [Other Issues](/issues#other-issues) section for a rant.
+> Some of the following links look sketchy, but the community is a divided mess for various reasons one of them being language barrier, and not many people work on the ps4. Refer to the [Other Issues](/ps4/issues#other-issues) section for a rant.
 ## Kernels
 
 This is the section for recommended kernels. There are both vanilla kernels and performance kernels. Ordered by newest to oldest, the top ones are the recommended ones.
 
-[Credits for all of these kernels](/ending#credits).
+[Credits for all of these kernels](/ps4/ending#credits).
 
 ::: details Read this if you're confused!
 ### Do kernel versions matter?
@@ -56,7 +56,7 @@ These are other kernels that you may want or need to use.
 
 :::
 
-If you have issues, remember to check the [Issues page](/issues). If you want more help, check out [Discord servers](/information#important-places).
+If you have issues, remember to check the [Issues page](/ps4/issues). If you want more help, check out [Discord servers](/ps4/information#important-places).
 
 ## Initramfs
 This is the rescue shell that boots your Linux installer/installation.
@@ -71,9 +71,7 @@ Also, you may want to read [this post](https://ps4linux.com/forums/d/93-tutorial
 ## Distros (that you should use)
 There's tons of distros, tthe list of distros here are the ones that are recommended for you to use. 
 > [!DANGER]
-> If you have a Baikal console (many PS4 Pros are the Baikal variant) or are otherwise using the 5.4.x kernels, make sure your distro ships with Mesa version 25.1 or lower.
-> Newer versions are not supported on this Linux version, and so GPU acceleration will not work. See [this GitHub issue](https://github.com/feeRnt/ps4-linux-12xx/issues/8) or [this page to understand why](baikal).
->
+> If you have a Baikal console (many PS4 Pros are the Baikal variant) or are otherwise using the 5.4.x kernels, make sure your distro ships with Mesa version 25.1 or lower. Newer versions are not supported on this Linux version, and so GPU acceleration will not work. See this GitHub issue or this page to understand why.
 
 ::: details More about these distros
 Each distro has it's own pros and cons. But most of the difference on PS4 comes down to drivers; each distro requires it's own version of them and it can be a pain in the ass to install.
@@ -115,7 +113,7 @@ It may be useful to you if you want something other than Arch, or if you have a 
 >[!TIP]
 >Want to add more distros? Make an issue and your wish shall be granted.
 >
->Want to make your own? [Check this out!](distrodiy)
+>Want to make your own? [Check this out!](/ps4/distrodiy)
 
 
 :::

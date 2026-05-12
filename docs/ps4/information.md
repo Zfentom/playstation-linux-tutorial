@@ -4,7 +4,7 @@
 # Key information
 This tutorial will cover how to install Linux on your PS4. It was originally created because the PS4Linux.com's guide was old, hard to understand, incomplete, and filled with ads. The site was updated recently, but the guide section hasn't really changed.
 
-Still, thanks to noob404 for their website, as this is a better-put-together version of their work. This guide wouldn't exist without it.
+Still, thanks to noob404 for their website, as this is a better-put-together version of their work. This guide wouldn't exist without it and without Dionkill.
 
 ::: details Is it reversible? Will it delete all my games and saves?
 All your data will stay intact. Whether you install it on the internal HDD or an external drive, you will keep your data as you first need to exploit your console at every boot.
@@ -26,11 +26,10 @@ You should be able to get a working installation either way regardless of your s
 ## Video guide (optional)
 
 > [!TIP]
-> If you prefer a video guide, I recommend Modded Warfare's on YT.
+> If you prefer a video guide, I recommend Modded Warfare on YouTube. His videos are detailed, easy to follow, and consistently kept up to date with the latest developments and news.
 > 
 > As is the nature with videos, it may not be up to date with the content here.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW_lRyXQcb8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Important places
 Here are some links you'll probably find useful. You can come back to them if needed.

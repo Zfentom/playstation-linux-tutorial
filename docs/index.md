@@ -6,13 +6,12 @@ hero:
   name: "Playstation Linux Tutorial"
   text: "A tutorial that teaches YOU how to setup linux on your playstation 4 or 5"
   tagline: Made my Zfentom
+  image:
+    src: crying-wojak.png
   actions:
     - theme: brand
       text: 🏁 Let's start!
       link: /start
-#    - theme: alt
-#      text: 
-#      link: /api-examples
 
 features:
   - icon: 🧹

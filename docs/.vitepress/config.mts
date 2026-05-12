@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { visualizer } from "rollup-plugin-visualizer"
 
 export default defineConfig({
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   base: '/playstation-linux-tutorial/',
   title: 'PlayStation Linux Guide',
   description: 'Linux installation guides for PS4 and PS5 systems',
@@ -13,7 +14,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/favicon/favicon.ico',
     nav: [
       { text: '🏠 Home', link: '/' },
       { text: 'Playstation 4 Guide', link: '/ps4/information' },
