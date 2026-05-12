@@ -105,6 +105,15 @@ export default defineConfig({
                 { text: 'Known Limitations', link: '/ps5/limitations' }
               ]
             },
+            {
+              text: '🎮 Gaming & Performance',
+              collapsed: true,
+              items: [
+                { text: 'Emulation Guide', link: '/ps5/emulation' },
+                { text: 'Performance Tweaks', link: '/ps5/performance' },
+                { text: 'Benchmark', link: '/ps5/benchmark' }
+              ]
+            },
             { text: '🏁 Conclusion', link: '/ps5/ending' }
           ]
         }
