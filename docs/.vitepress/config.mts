@@ -53,7 +53,7 @@ export default defineConfig({
                 { text: 'Game Compatibility', link: '/ps4/games' },
                 { text: 'Emulation Guide', link: '/ps4/emulation' },
                 { text: 'Performance Tweaks', link: '/ps4/performance' },
-                { text: 'Benchmark' link: '/ps4/benchmark' }
+                { text: 'Benchmark', link: '/ps4/benchmark' }
               ]
             },
             {
@@ -112,11 +112,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/FlyingPhantom/playstation-linux-tutorial/' }
+      { icon: 'github', link: 'https://github.com/Zfentom/playstation-linux-tutorial/' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/FlyingPhantom/playstation-linux-tutorial/edit/main/docs/',
+      pattern: 'https://github.com/Zfentom/playstation-linux-tutorial/edit/main/docs/',
       text: 'Edit this page on GitHub'
     },
 
