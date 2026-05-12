@@ -17,7 +17,7 @@ Capture and monitor UART serial output from a jailbroken PS4 using an Arduino CH
 
 Follow the soldering guide for your PS4 model - credit to [repair.wiki page](Follow the soldering guide for your PS4 model).
 
-<img src="/screenshots/UART-pinouts.webp" loading="lazy" >
+<img src="/screenshots/UART-pinouts.webp" >
 
 - Connect tx to rx on adapter
 

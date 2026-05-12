@@ -18,7 +18,7 @@ next:
 ## Installation scripts
 Put the kernel (bzImage, and the bootargs if you need it), initramfs (initramfs.cpio.gz), and your distro `psxitarch.tar.xz/gz` on the root of a FAT32 formatted drive, like so:
 
-<img src="/screenshots/external-drive-conf.webp" loading="lazy" width="75%">
+<img src="/screenshots/external-drive-conf.webp" width="75%">
 
 ### Manual format for big drives
 If the drive is larger than 32GB, Windows will dastardly act like it can't format it in FAT32, but only in NTFS or ExFAT, which is just wrong, as FAT32 supports up to 2TB drives.
@@ -33,13 +33,13 @@ Click start and wait.
 Once done, place the files on the drive.
 Plug your drive on the PS4 and continue.
 
-<img src="/screenshots/rufus-format.webp" loading="lazy" width="50%">
+<img src="/screenshots/rufus-format.webp" width="50%">
 
 <!-- @include: /_includes/payloads.md -->
 ## Installation commands
 Now that the storage is covered, here comes the moment of truth. You'll be sent to the Rescue Shell, which will look like this:
 
-<img src="/screenshots/rescue-shell.webp" loading="lazy" width="80%">
+<img src="/screenshots/rescue-shell.webp" width="80%">
 
 - Type `install-psxitarch.sh`
 	- If it fails, go to the [Installation Issues](/ps4/issues#installation-issues), or use the [alternative method](/ps4/external-installation-manual).
