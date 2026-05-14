@@ -1,4 +1,19 @@
-[Go back.](/start)
+<a href="/playstation-linux-tutorial/start" style="
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--vp-c-text-1);
+  transition: border-color 0.2s;
+">
+  ← Back to Home
+</a>
 
 # Key information
 This tutorial will cover how to install Linux on your PS5. It is created to make it easier for people to install linux on their consoles.

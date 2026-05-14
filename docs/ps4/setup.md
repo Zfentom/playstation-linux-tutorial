@@ -1,5 +1,9 @@
 # Requirements and initial setup
 In order to install Linux on the PS4, a lot of things are needed. You may have to buy some gear to make this work.
+
+> [!DANGER]
+> Note that while Baikal is better supported now, much of it is still highly experimental because the maintainer does not have a baikal console.
+
 ## Requirements
 
 You'll need:

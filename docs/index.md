@@ -1,28 +1,30 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Playstation Linux Tutorial"
-  text: "A tutorial that teaches YOU how to setup linux on your playstation 4 or 5"
-  tagline: Made my Zfentom
+  name: "Playstation <span class='vp-home-hero-name-gradient'>Linux</span>"
+  text: "Unlock the Full Potential of Your Old or Unused Console"
+  tagline: "A comprehensive, community-driven guide made by Zfentom."
   image:
-    src: crying-wojak.png
+    src: /crying-wojak.png
+    alt: PS Linux Guide
   actions:
     - theme: brand
-      text: 🏁 Let's start!
+      text: 🏁 Get Started
       link: /start
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/Zfentom/playstation-linux-tutorial/
 
 features:
-  - icon: 🧹
-    title: Prevent EWASTE!
-    details: Maybe you have an old PS4, or perhaps you don’t use your PS5 anymore. Regardless of your reason, don’t let it sit and gather dust—make use of it with Linux instead.
-  - icon: 💻
-    title: Easy setup
-    details: This guide will walk you through every step of the way and will explain to you not just how to install, but also to setup Linux in general, how to maintain it very easily and make it a usable everyday OS- because why not.
-  - icon: 📖
-    title: A comprehensive guide
-    details: The other online guides keep on missing the point. A lot of them either lack information, or are simply bad documented. This guide is made from the ground up by pure rage because no other guide details everything.
-
+  - icon: ♻️
+    title: Combat E-Waste
+    details: Breathe new life into your aging hardware. Whether it's an old PS4 or a dormant PS5, transform your console into a functional workstation instead of letting it collect dust.
+  - icon: ⚡
+    title: Streamlined Setup
+    details: This walks you through installation, maintenance, and optimization to turn Linux into a viable, operating system on your hardware.
+  - icon: 🛠️
+    title: Built from Frustration
+    details: This guide was built out of frustration to document the missing steps that other tutorials simply overlook or make one that does not even exist.
 ---
 

@@ -1,8 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { visualizer } from "rollup-plugin-visualizer"
 
-export default defineConfig({
-  ignoreDeadLinks: false,
+export default({
   base: '/playstation-linux-tutorial/',
   title: 'PlayStation Linux Guide',
   description: 'Linux installation guides for PS4 and PS5 systems',
@@ -60,7 +58,7 @@ export default defineConfig({
               text: '🛠️ Advanced',
               collapsed: true,
               items: [
-		{ text: 'UART', link: '/ps4/uart' },
+		            { text: 'UART', link: '/ps4/uart' },
                 { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
                 { text: 'Distro DIY', link: '/ps4/distrodiy' }
               ]
@@ -123,12 +121,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zfentom/playstation-linux-tutorial/' }
     ],
-
-    editLink: {
-      pattern: 'https://github.com/Zfentom/playstation-linux-tutorial/edit/main/docs/',
-      text: 'Edit this page on GitHub'
-    },
-
     footer: {
       message: 'Released under Apache 2.0 License',
       copyright: 'Copyright © 2025 FlyingPhantom'

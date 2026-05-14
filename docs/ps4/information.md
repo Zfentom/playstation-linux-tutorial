@@ -1,10 +1,22 @@
-
-[Go back.](/start)
+<a href="/playstation-linux-tutorial/start" style="
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--vp-c-text-1);
+  transition: border-color 0.2s;
+">
+  ← Back to Home
+</a>
 
 # Key information
-This tutorial will cover how to install Linux on your PS4. It was originally created because the PS4Linux.com's guide was old, hard to understand, incomplete, and filled with ads. The site was updated recently, but the guide section hasn't really changed.
-
-Still, thanks to noob404 for their website, as this is a better-put-together version of their work. This guide wouldn't exist without it and without Dionkill.
+This guide wouldn't exist without Dionkill.
 
 ::: details Is it reversible? Will it delete all my games and saves?
 All your data will stay intact. Whether you install it on the internal HDD or an external drive, you will keep your data as you first need to exploit your console at every boot.
