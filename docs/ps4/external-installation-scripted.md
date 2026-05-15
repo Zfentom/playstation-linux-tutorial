@@ -44,13 +44,12 @@ Now that the storage is covered, here comes the moment of truth. You'll be sent 
 - Type `install-psxitarch.sh`
 	- If it fails, go to the [Installation Issues](/ps4/issues#installation-issues), or use the [alternative method](/ps4/external-installation-manual).
 
-Hydrate yourself while you wait. It'll take a while.
+This could take long depending on your HDD or SSD, on the ps4 HDD it can take roughly about 20 minutes. 
 
 After that is done, it should boot into the desktop. If it doesn't, run
 ```bash
 resume-boot
 ```
 
-<!-- @include: /_includes/resume-boot-warning.md -->
-## Finale
-Go now, conquer the finale. Also, read the post-credit stuff.
+> [!WARNING]
+> Don't run resume-boot more than twice, or it'll crash the system! Do `CTRL+ALT+DELETE` to reboot instead!

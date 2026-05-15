@@ -45,10 +45,13 @@ You should be able to get a working installation either way regardless of your s
 
 ## Important places
 Here are some links you'll probably find useful. You can come back to them if needed.
+
+### Most important one [Linux for ps4 community](https://discord.gg/DBNmGZMZ)
+
 1. [PS4Linux Website](https://ps4linux.com)
 2. [PS4Linux Forums](https://ps4linux.com/forums/)
 3. [PS4Linux Forums' Discord server](https://discord.com/invite/QtcPmzHVVm)
-4. YouTube
+4. YouTube - though not recommended
 	1. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
 	2. [Noob404 (PS4Linux Forums)](https://www.youtube.com/channel/UC9pY5BDCjDLOC4j-zkHPu8A)
 	3. [Qba](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw)

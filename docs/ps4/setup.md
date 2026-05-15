@@ -33,7 +33,7 @@ Note down what you see in "Settings -> System Information":
 
 <img src="/screenshots/system-info.webp" width="75%">
 
-In the example case, the latest version of GoldHEN is used (minimum for this guide is v2.4b18.5), running on a Belize PS4 Slim.
+In the example case, the latest version of GoldHEN is used (minimum for this guide is v2.4b18.5, version v2.4b18.7 or 18.9 are recommended), running on a Belize PS4 Slim.
 
 ### HEN
 You need a system that is already jailbroken and has a homebrew enabler (such as GoldHEN or ps4hen) running.

@@ -49,8 +49,7 @@ In order to do that, you need to download them [here](https://github.com/rmuxnet
 
 #### Local payloads setup
 - Install "Payload Guest" or similar app on your PS4 to load the payloads locally
-- Extract from the ELF folders, and rename the file to have a `.bin` extension instead of `.elf`, because Payload Loader can't load ELFs
-	- Using the `.elf` seems to lead to a higher success rate when launching
-	- Enable "see file extensions" on Windows Explorer or what you're using
+	- Using the `.elf` seems to lead to a higher success rate when launching, `.elf` payloads can be loaded with via netcat.
+	- Enable "see file extensions" on Windows Explorer or whatever file manager you are using.
 - Put the files in the `/data/payloads/` directory
 - Remember to check here sometimes to see if there's any updates
