@@ -46,8 +46,6 @@ If you want, you can check out their repos:
 	- Updated kernel version and improved baikal support.
 
 ### Additional credits
-- [saya](https://www.youtube.com/@saya7068)
-	- For their great kernels and tutorials.
 - [Qba](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw)
 	- For their constant updates and new distros.
 - [triki1](https://www.youtube.com/@trakerchris9876)

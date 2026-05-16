@@ -99,7 +99,6 @@ export default({
               collapsed: false,
               items: [
                 { text: 'FAQ', link: '/ps5/faq' },
-                { text: 'Console Experience', link: '/ps5/console-experience' },
                 { text: 'Known Limitations', link: '/ps5/limitations' }
               ]
             },

@@ -4,9 +4,6 @@
 
 - For proton we can use either [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
 
-> [!TIP]
-> Instead of just installing these compile them manually using custom -march and -mtune flags, those being *-march=znver2* and *-mtune=znver2* to apply znver2 optimizations.
-
 - For Proton-Sarek you can use `PROTON_SAREK_PROFILE=agg` profile to gain performance in some games.
 
 - For Proton-CachyOS you can try using `PROTON_USE_NTSYNC=1` to see if performance improves.
@@ -35,7 +32,7 @@ You can use it by using ``gamemoderun %command%`` in steam or ``gamemoderun *gam
 
 While these are not really "optimizations" Windows Managers and some Desktop Enviroments can reduce ram usage and make the system more responsive, while these may not have a significant impact on your performance or have any at all the lesser ram usage and minimalism may appeal to some
 
-::: details  Xorg based Dekstop enviroments:
+::: details  Xorg based Dekstop enviroments and Window Managers:
 		
 - [LXDE](https://www.lxde.org/) ***Small Note: for some fucking reason the site is flagged as unsecure***
 
@@ -58,9 +55,9 @@ While these are not really "optimizations" Windows Managers and some Desktop Env
 
 - [DWL](https://gitlab.com/marcobruna/dwl)
 
-- [Hyprland](https://hypr.land/) (Runs well on Pro models but not tested on non Pro models, use a lightweight config)
+- [Hyprland](https://hypr.land/) 
 
-- [Swayfx](https://github.com/WillPower3309/swayfx) (Also not tested on non pro models, use a lightweight config)
+- [Swayfx](https://github.com/WillPower3309/swayfx) 
 
-- [Niri](https://yalter.github.io/niri/) (Also not tested on non pro model, use a lightweight config)
+- [Niri](https://yalter.github.io/niri/)
 :::

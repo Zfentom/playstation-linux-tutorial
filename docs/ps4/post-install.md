@@ -10,6 +10,9 @@ Updating your system can be a bit of a pain in the ass, as some of the packages 
 > Arch-based distros have repositories for drivers, other distros might not.
 
 ::: details Arch based distros (with driver updates)
+
+- NOTE: Cachyos lite already has this repo configured.
+
 To update the drivers, you need to open the pacman config:
 ```bash
 sudo nano /etc/pacman.conf
@@ -140,7 +143,7 @@ sudo rm /swapfile
 
 Then, we need to enable new swap (8GB for this tutorial, you may change it)
 ```bash
-sudo fallocate -l 8G /swapfile 8GB # Allocates 8GBs
+sudo dd if=/dev/zero of=/swapfile bs=1M count=2048 # Allocates 8GBs, to find
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
@@ -240,6 +243,9 @@ To play games, these are the recommended softwares:
 - Fjord Launcher instead of those other shitty Minecraft launchers
 	- Minecraft has graphical issues in versions newer than 1.21.5
 - And a bunch of emulators!
+
+> [!TIP]
+> In some distros you may need to uncomment ``DisableSandbox`` in ``/etc/pacman.conf``.
 
 To do that, if using anything other than Arch based distros, install from their repo or github.
 

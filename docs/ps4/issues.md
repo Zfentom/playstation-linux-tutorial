@@ -85,18 +85,10 @@ I mean it was kind of expected. How else are you gonna go back to the main menu?
 # Other issues
 ::: details The scene is completely fucked
 
-In a nutshell, the scene is a mess and a lot of stuff may be shared privately or on Discord servers because:
-- It's in testing phase and therefore not public yet
-- It's not open sourced because there's a lot of people who steal the developer's work
-- It hasn't been merged into main projects because it would be too difficult to maintain thereafter, and would require it to be in a perfect condition
-- A lot of this stuff is from developers all across the world and there's a language barrier
-- Language barrier
+Basically, the scene has been run by French developers for a long time, and they have been stealing the sources and information from other projects while claiming they are not, without giving credit to their own work. The most well-known case is Saya; for other developers we don’t really know, but he has been the most vocal one, and it has been proven.
 
-Especially the second reason is why the community is like this, unfortunately.
-
-It will take time, I'm grateful for all the help from everyone in the community, and I'm also hopefully making the scene a little bit better and one day we'll all have stuff uploaded in proper places :D
 :::
 
 ::: details How can I improve the situation?
-Join the Discord servers, share this tutorial, star it on GitHub (pretty please).
+Join the [Discord server](https://discord.gg/DBNmGZMZ), share this tutorial, star it on GitHub (pretty please).
 :::

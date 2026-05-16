@@ -65,11 +65,11 @@ However, as some issues may arise on certain consoles, you should still go and t
 	- 4K may not work on PS4 Pro. Try 1080p first.
 	- Not always required? Works on Belize in Automatic.
 
-##### RGB Color gamut
+##### RGB Color Range
 
 <img src="/screenshots/rgb-range.webp" width="75%">
 
-- Set your RGB color gamut
+- Set your RGB color Range
 	- It may be automatically set to "Limited" even if your display supports "Full".
 	- "Full" may not work on really old displays. If the image looks weird, set it to "Limited".
 

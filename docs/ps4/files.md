@@ -44,18 +44,6 @@ If you are using the PS4 as a server, use these instead of the normal desktop-or
 | [6.18.21](https://github.com/rmuxnet/ps4-linux-12xx) <br> (Recommended)                                  | Aeolia, Belize          | [GitHub](https://github.com/rmuxnet/ps4-linux-12xx) | Contains the Strawberry server prebuilts in the repo releases.                        |
 | [7.0-Clean](https://github.com/rmuxnet/ps4-linux-12xx)                                                    | Aeolia, Belize          | [GitHub](https://github.com/rmuxnet/ps4-linux-12xx) | Newer 7.0 server work by rmux.<br>Use the repo to pick the branch or release you want. |
 
-::: details More kernels
-### Other kernels
-These are other kernels that you may want or need to use.
-
-| Kernel Download                                                                                  | Compatible Southbridges | Source Code                                         | Extra info                                                                                                              |
-| ------------------------------------------------------------------------------------------------ | ----------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [6.15,<br>5.15 and<br> 5.4](https://www.youtube.com/watch?v=zVzHzJT7dHk)                         | All                     | N/A                                                 | FullLTO, 120Hz support, 4K for PS4 Pro. You need to download the whole archive and pick one for your needs.<br>By saya. |
-| [6.15.4](https://mega.nz/folder/N0QjHSBT#609IHevkWEW0vnTCFW-Rhw)                                 | Aeolia &<br>Belize      | N/A?                                                | ZRAM, CachyOS patches, KVM and more. <br>By triki1.                                                                     |
-| [5.15.15](https://github.com/feeRnt/ps4-linux-12xx/releases/tag/v5.15.15__1.0.0) <br>Aeolia Ver. | Aeolia                  | [GitHub](https://github.com/feeRnt/ps4-linux-12xx/) | NOT RECOMMENDED.<br>Has half broken SATA/Bluray driver. Use for testing only.                                           |
-
-:::
-
 If you have issues, remember to check the [Issues page](/ps4/issues). If you want more help, check out [Discord servers](/ps4/information#important-places).
 
 ## Initramfs

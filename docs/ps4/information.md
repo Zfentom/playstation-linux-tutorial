@@ -50,18 +50,8 @@ Here are some links you'll probably find useful. You can come back to them if ne
 
 1. [PS4Linux Website](https://ps4linux.com)
 2. [PS4Linux Forums](https://ps4linux.com/forums/)
-3. [PS4Linux Forums' Discord server](https://discord.com/invite/QtcPmzHVVm)
-4. YouTube - though not recommended
-	1. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
-	2. [Noob404 (PS4Linux Forums)](https://www.youtube.com/channel/UC9pY5BDCjDLOC4j-zkHPu8A)
-	3. [Qba](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw)
-5. Discord
-	1. [PS4Linux Forums' Discord server](https://discord.com/invite/QtcPmzHVVm)
-		1. For general help regarding things not working
-	2. [tux4orbis](https://discord.gg/jebUjgBu6T)
-		1. More development focused
-	3. [PS4-LINUX](https://discord.gg/88ZrcmpJ) (saya's)
-		1. Mostly in French
+3. YouTube - though not recommended
+4. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
 
 
 > [!TIP]
