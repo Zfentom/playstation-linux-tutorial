@@ -13,6 +13,7 @@ export default({
   ],
 
   themeConfig: {
+    outline: false
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Playstation 4 Guide', link: '/ps4/information' },
