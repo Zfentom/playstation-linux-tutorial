@@ -29,7 +29,7 @@ export default({
             { text: 'Files', link: '/ps4/files' },
             {
               text: 'Installation',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Internal Install', link: '/ps4/internal-installation' },
                 { text: 'External (Scripted)', link: '/ps4/external-installation-scripted' },
@@ -40,7 +40,7 @@ export default({
             },
             {
               text: 'Knowledge Base',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'FAQ', link: '/ps4/faq' }
               ]
