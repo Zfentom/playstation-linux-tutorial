@@ -9,7 +9,7 @@ ps5-linux is currently only supported on PS5 Phat on 3.xx and 4.xx firmwares
 
 | Firmware | Support | M.2 |
 |----------|---------|-----|
-| 6.02 | 🚧 | ✔️ |
+| 6.02 | ✔️ | ✔️ |
 | 4.51 | ✔️ | ✔️ |
 | 4.50 | ✔️ | ✔️ |
 | 4.03 | ✔️ | ✔️ |
