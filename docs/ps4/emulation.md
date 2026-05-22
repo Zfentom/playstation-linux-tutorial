@@ -109,14 +109,3 @@
 - Run `./DuckStation-x64.AppImage` to run DuckStation
 
 :::
-
-
-
-| Emulator Compatibility	       | Stability									     |
-|--------------------------------------|-----------------------------------------------------------------------------|
-| Retroarch                            | Works properly no known issues as of now				     |
-| PCSX2				       | Not tested, should work 						     |
-| Dolphin                              | Not tested, should work 						     |
-| Rpcs3                                | Likely works but will experience poor performance 			     |
-| PPSSPP 			       | Not tested, should work						     |
-| Duckstation                          | Not tested, should work 						     |

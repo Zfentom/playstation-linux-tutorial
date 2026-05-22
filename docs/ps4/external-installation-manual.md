@@ -42,11 +42,9 @@ resume-boot
 
 <!-- @include: /_includes/resume-boot-warning.md -->
 
-::: details If it doesn't work check this!
 If for some reason it doesn't work for you, run the following commands (thanks @gryoza on Discord and @bene4k on Reddit for this):
 ```bash
 mount /dev/sdb2 /newroot
 exec chroot
 ```
 You may need to do this at every reboot.
-:::

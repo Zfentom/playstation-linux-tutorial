@@ -1,14 +1,8 @@
 # Improve Performance and Responsiveness
 
-> [!NOTE]
-> All of the changes to the Playstation 4 Fat or Slim can be applied to the Pro if you want to squeeze in more performance
-
-# Proton optimizations
+## Proton optimizations
 
 - For proton we can use either [Proton-Sarek](https://github.com/sillyfish38/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
-
-> [!TIP]
-> Instead of just installing these compile them manually using custom -march and -mtune flags, those being *-march=btver2* and *-mtune=btver2* to apply btver2 optimizations.
 
 - For Proton-Sarek you can use `PROTON_SAREK_PROFILE=agg` profile to gain performance in some games.
 

@@ -23,7 +23,7 @@ These are the original kernel developers, who did the hard work to port the kern
 - 7.0 kernel
 	- rmuxnet with a port for 7.0 and several additional patches to make experience better
 
-If you want, you can check out their repos:
+### If you want, you can check out their repos:
 - [marcan (fail0verflow) ](https://github.com/fail0verflow/ps4-linux)
 	- Without them nothing would've ever been possible.
 - [rancido (psxitateam)](https://github.com/Ps3itaTeam/ps4-linux/)
@@ -54,5 +54,8 @@ If you want, you can check out their repos:
 	- For their tutorial and fixes for baikal consoles and more.
 - [centi07](https://github.com/centi07/)
 	- For their help with up-to-date mesa package repos on Arch and more.
+
+- tony the intelligent goon 
+        - For sharing game compatibility spreadsheet.
 
 Thank you all so much for making this possible.

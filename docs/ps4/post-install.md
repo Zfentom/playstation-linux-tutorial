@@ -62,62 +62,10 @@ sudo apt upgrade
 ```
 :::
 
-::: details Fedora based distros (untested)
-To make sure that the PS4 packages don't get updated, you need to modify the dnf config:
-```bash
-sudo nano /etc/dnf/dnf.conf
-```
-
-Then, at the line next to the `[main]` section:
-```bash
-exclude=lib32-libdrm-git lib32-mesa-git libdrm-git mesa-git lib32-libdrm lib32-mesa libdrm mesa lib32-llvm-libs llvm-libs
-```
-
-Then, you should be free to update your system with:
-```bash
-sudo dnf update
-```
-:::
-
 Otherwise, you can always update everything but not the driver packages.
-## Fix language
-Some pre-packaged distros you can download are in foreign languages. Unfortunately changing it from your DE (KDE, Gnome...) doesn't apply system wide. So here's a cheap rundown of all of the commands:
-
-::: details Debian/Ubuntu based distros (thanks triky1)
-```bash
-sudo dpkg-reconfigure locales
-```
-:::
-
-::: details Fedora based distros (to-do)
-Nobody knows
-:::
-
-::: details Arch based distros
-You first need to edit your `locale.gen`, to generate your locale settings.
-
-Comment out any language you don't want and uncomment yours:
-```bash
-sudo nano /etc/locale.gen
-```
-
-Now, you can generate your locale with:
-```bash
-sudo locale-gen
-```
-
-And last but not least, to change it system wide, add your language in this file:
-```bash
-sudo nano /etc/locale.conf
-```
-
-If needed, change your language in yout DE (KDE, Gnome...)
-:::
-
-Reboot to apply these changes.
 
 ## Change username and password
-Honestly? Create a new user. It's faster. Or just keep it.
+Create a new user. Because changing current user is unsupported.
 
 You can however change the password, by doing:
 ```bash
@@ -216,25 +164,6 @@ Thanks again to Qba for this [showcase](https://youtu.be/f_kXks8z9dc).
 
 Oh, and don't worry if you see that your installation is using a lot of memory. It's normal and is meant to happen in order to improve performance. Check this [link](https://linuxatemyram.com) to learn more.
 
-## Get more CPU performance
-You may have realized that the PS4's CPU is pretty lacking and is most likely it's biggest disadvantage. But apart from a really optimized distro, what else can you do?
-
-In computing you are always going to gain something and loose something else. Either your time, money, or in this case...
-
-::: details Disable Cpu mitigations
-Yes, you can disable some security patches for attacks like Meltdown and Spectre, to gain some CPU performance. It does work and should have a noticeable improvement.
-
-Obviously this is usually not recommended, but if all you want to do is game from your Steam library and occasionally browse the web (which is most of us), you are probably going to be fine. Also remember the console is already jailbroken... Not really going for security with that one.
-
-To do that it's surprisingly simple. Open the `bootargs.txt` file, or create it in the same folder of the kernel if it doesn't exist already, then add this line, save and reboot:
-```bash
-mitigations=off
-```
-
-And there you go! You can change it back anytime of course.
-:::
-
-Do not go and download an older kernel to try as they don't work anymore either!
 ## Install more applications
 To play games, these are the recommended softwares:
 - Steam

@@ -25,6 +25,7 @@ A focused Vulkan benchmark suite that tests driver efficiency and Vulkan renderi
 
 Install it by running ``sudo pacman -S vkmark --noconfirm`` and run with ``vkmark``
 
+---
 
 # Game Benchmarking/FPS testing
 
@@ -48,18 +49,18 @@ For running a game with mangohud outside launchers like steam is done by running
 mangohud *game*
 ```
 
-> For running a game and combining mangohud and gamemode run ``mangohud gamemoderun *game*``
+- For running a game and combining mangohud and gamemode run ``mangohud gamemoderun *game*``
 
-If you wanna run mangohud inside a steam game you can by using this launch flag:
+- If you wanna run mangohud inside a steam game you can by using this launch flag:
 
 ```bash
 mangohud %command%
 ```
 
-> For running a game and combining mangohud and gamemode run ``mangohud gamemoderun %command%``
+- For running a game and combining mangohud and gamemode run ``mangohud gamemoderun %command%``
 
 
-And for vulkan games you just do ``MANGOHUD=1 *game*``
+- And for vulkan games you just do ``MANGOHUD=1 *game*``
 
 
 ## Steam Overlay
