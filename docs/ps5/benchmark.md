@@ -25,6 +25,7 @@ A focused Vulkan benchmark suite that tests driver efficiency and Vulkan renderi
 
 Install it by running ``sudo pacman -S vkmark --noconfirm`` and run with ``vkmark``
 
+---
 
 # Game Benchmarking/FPS testing
 
@@ -38,9 +39,13 @@ Displays real-time performance metrics while gaming, including:
 - temperatures
 - power draw
 
-Install it by running ``sudo pacman -S mangohud --noconfirm``
+---
 
->If you wanna use mangohud for 32bit games enable multilib repo and run ``yay -S lib32-mangohud --noconfirm``.
+::: details Running Mangohud
+
+- Install it by running ``sudo pacman -S mangohud --noconfirm``
+
+- If you wanna use mangohud for 32bit games enable multilib repo and run ``yay -S lib32-mangohud --noconfirm``.
 
 For running a game with mangohud outside launchers like steam is done by running:
 
@@ -48,19 +53,20 @@ For running a game with mangohud outside launchers like steam is done by running
 mangohud *game*
 ```
 
-> For running a game and combining mangohud and gamemode run ``mangohud gamemoderun *game*``
+- For running a game and combining mangohud and gamemode run ``mangohud gamemoderun *game*``
 
-If you wanna run mangohud inside a steam game you can by using this launch flag:
+- If you wanna run mangohud inside a steam game you can by using this launch flag:
 
 ```bash
 mangohud %command%
 ```
 
-> For running a game and combining mangohud and gamemode run ``mangohud gamemoderun %command%``
+- For running a game and combining mangohud and gamemode run ``mangohud gamemoderun %command%``
 
 
-And for vulkan games you just do ``MANGOHUD=1 *game*``
+- And for vulkan games you just do ``MANGOHUD=1 *game*``
 
+:::
 
 ## Steam Overlay
 

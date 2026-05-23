@@ -1,39 +1,38 @@
 # Frequently Asked Questions ❓
 
-### 🐧 General Linux Questions
+## Q: Will higher >=6.50 firmwares be supported?
 
-**Can I dual-boot Linux and PS5 OS?**
+ A: No. Becuase there is no HV exploit on those firmwares.
 
-No. This is a **soft-mod**. You must re-run the exploit every time you want to boot into Linux.
+## Q: Why can I not use M.2 on 3.xx?
 
-**Can I continue using my PS5 normally if I install Linux?**
+ A: Because the PS5 fails to boot with it attached.
 
-Yes. The internal SSD is not modified during this process.
+## Q: Can I dual-boot Linux and PS5 OS?
 
-**Can I put Linux into standby and resume?**
+ A: No, this is a soft-mod. You need to re-run the exploit in order to boot into Linux.
 
-No, standby/suspend is not supported. We may add a feature in the future that puts the PS5 into Rest Mode during "shutdown," allowing for a quicker relaunch.
+## Q: Can I put Linux into standby and resume?
 
----
+A: No, this is not supported. We may however add a shutdown feature that puts your PS5 into rest-mode allowing you to relaunch Linux when powering up again.
 
-### 🎮 Hardware & Controllers
+## Q: Can I continue using my PS5 if I install Linux?
 
-**Does the DualSense controller work?**
+A: Yes, the internal SSD is not modified
 
-Yes, but only via a Bluetooth dongle. The PS5's built-in Bluetooth module is not yet supported.
+## Q: Can I use the PS5's NIC/WLAN module in Linux?
 
-**Can I use the PS5's built-in LAN/Wi-Fi?**
+A: In theory yes, but someone needs to write or adapt drivers to use them.
 
-In theory yes, but someone needs to write or adapt drivers to use them. Most users currently utilize USB-based networking.
+## Q: Does the DualSense controller work?
 
-**What resolutions and refresh rates are supported?**
+A: Via a Bluetooth dongle. Built-in Bluetooth is not yet supported.
 
-1080p, 1440p and 2160p at 60Hz are broadly supported. 1440p@120Hz has only been confirmed working on the DELL S3225QC so far. 120Hz or 30Hz support may be added in the future.
+## Q: What resolutions and refresh rates are supported?
 
----
+A: 1080p, 1440p and 2160p at 60Hz are broadly supported. 1440p@120Hz has been the only confirmed working on the DELL S3225QC yet. 120Hz or 30Hz may be added in the future.
 
-### ⚠️ Firmware & Compatibility
+## Q: After reboot, I get a "Repairing" screen and "Your PS5 wasn't turned off properly." screen. Is that normal?
 
-**Will firmwares higher than 6.xx be supported?**
+A: Yes, and it's harmless.
 
-No. Support is limited to specific lower firmware versions.
