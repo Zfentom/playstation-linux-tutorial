@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { compression } from 'vite-plugin-compression2'
 
 export default({
-  appearance: 'false',
+  appearance: 'dark',
     build: {
     target: 'esnext',
     sourcemap: false,
@@ -139,7 +139,7 @@ sidebar: {
     ],
     footer: {
       message: 'Released under Apache 2.0 License',
-      copyright: 'Copyright © 2025 FlyingPhantom'
+      copyright: 'Copyright © 2025 Zfentom'
     }
   }
 })

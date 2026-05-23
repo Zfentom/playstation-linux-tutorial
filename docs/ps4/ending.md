@@ -55,7 +55,7 @@ These are the original kernel developers, who did the hard work to port the kern
 - [centi07](https://github.com/centi07/)
 	- For their help with up-to-date mesa package repos on Arch and more.
 
-- tony the intelligent goon 
+- goofyahhsonicfan 
         - For sharing game compatibility spreadsheet.
 
 Thank you all so much for making this possible.
