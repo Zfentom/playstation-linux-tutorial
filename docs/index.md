@@ -9,9 +9,14 @@ hero:
     src: /giphy.gif
     alt: PS Linux Guide
   actions:
-    - theme: brand
-      text: 🏁 Get Started
-      link: /start
+    - theme: alt
+      text: 🏁 PS4 Guide
+      link: /ps4/information
+
+    - theme: alt
+      text: 🏁 PS5 Guide
+      link: /ps5/information
+
     - theme: alt
       text: View on GitHub
       link: https://github.com/Zfentom/playstation-linux-tutorial/
