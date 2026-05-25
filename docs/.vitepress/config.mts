@@ -25,10 +25,6 @@ export default({
     ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/og-image.png' }]
   ],
 
-search: {
-   provider: 'local'
-},
-
   themeConfig: {
     outline: false,
     nav: [
@@ -36,6 +32,10 @@ search: {
       { text: 'Playstation 4 Guide', link: '/ps4/information' },
       { text: 'Playstation 5 Guide', link: '/ps5/information' },
     ],
+
+search: {
+   provider: 'local'
+},
 
 sidebar: {
       '/ps4/': [
