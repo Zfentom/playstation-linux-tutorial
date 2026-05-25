@@ -2,7 +2,7 @@
 In order to install Linux on the PS4, a lot of things are needed. You may have to buy some gear to make this work.
 
 > [!DANGER]
-> Note that while Baikal is better supported now, much of it is still highly experimental because the maintainer does not have a baikal console.
+> Note that while Baikal is better supported now, much of it is still highly experimental because the maintainers does not have a baikal console.
 
 ## Requirements
 
@@ -17,7 +17,6 @@ You'll need:
 ## Storage devices to install to
 Before starting, you need to choose method of installation.
 1. Internal HDD
-	- Baikal still unsupported, very slow, needs free space
 2. External HDD/SSD
     - External USB Hard Disk Drive or USB Solid State Drive. Use a USB 3.x capable disk and cable for the best performance
 	- External SATA-USB or NVMe-USB adapter (if using a SATA/NVMe drive)
@@ -94,11 +93,11 @@ In order to do that, open up your FTP file manager of choice.
 - The built-in Windows File Explorer
 	- This one likes to crash the desktop if it can't connect, be careful
 - WinSCP (recommended, using the simple interface)
-- Filezilla
+- Filezilla - Binary mode
 
 #### Linux
 - Built in File explorer, if yours allows it.
-- Filezilla
+- Filezilla - Binary mode
 
 #### MacOS
-- Filezilla
+- Filezilla - Binary mode

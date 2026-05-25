@@ -1,13 +1,4 @@
----
-prev:
-  text: 'Go back to Installation Methods'
-  link: '/installation'
-next:
-  text: 'Ending'
-  link: '/ending'
----
-
-# Internal HDD installation
+-# Internal HDD installation
 Here you'll setup the internal HDD for installation of a Linux distro.
 
 > [!WARNING]

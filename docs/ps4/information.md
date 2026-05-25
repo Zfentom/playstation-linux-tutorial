@@ -13,7 +13,7 @@ TLDR: yes it is reversible, and no you won't lose any data.
 ## What consoles are compatible?
 All consoles that can run a homebrew enabler (like GoldHEN or ps4hen) are able to run Linux. But how you run Linux is also dependent on your southbridge, which will be covered in later sections.
 
-At the time of writing, the newest compatible firmware is <Badge type="tip" text="Up to 13.02" />.
+At the time of writing, the newest compatible firmware is <Badge type="tip" text="Up to 13.00" />.
 
 You should be able to get a working installation either way regardless of your southbridge.
 
@@ -30,10 +30,8 @@ Here are some links you'll probably find useful. You can come back to them if ne
 
 ### Most important one [Linux for ps4 community](https://discord.gg/DBNmGZMZ)
 
-1. [PS4Linux Website](https://ps4linux.com)
-2. [PS4Linux Forums](https://ps4linux.com/forums/)
-3. YouTube - though not recommended
-4. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
+1. YouTube - though not recommended
+2. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
 
 
 > [!TIP]

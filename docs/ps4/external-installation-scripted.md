@@ -1,12 +1,3 @@
----
-prev:
-  text: 'Go back to Installation Methods'
-  link: '/installation'
-next:
-  text: 'Ending'
-  link: '/ending'
----
-
 # External Installation - Method 1 (using a script)
 
 > [!WARNING]

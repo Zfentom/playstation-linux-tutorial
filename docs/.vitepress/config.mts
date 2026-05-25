@@ -146,7 +146,7 @@ sidebar: {
     ],
     footer: {
       message: 'Released under Apache 2.0 License',
-      copyright: 'Copyright © 2025 Zfentom'
+      copyright: 'Copyright © 2026 Zfentom'
     }
   }
 })

@@ -1,12 +1,3 @@
----
-prev:
-  text: 'Go back to Installation Methods'
-  link: '/installation'
-next:
-  text: 'Ending'
-  link: '/ending'
----
-
 # External Installation - Method 2 (manual partitioning)
 > [!WARNING]
 > Remember we'll format the external drive!
