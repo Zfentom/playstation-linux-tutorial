@@ -25,6 +25,10 @@ export default({
     ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/og-image.png' }]
   ],
 
+search: {
+      provider: 'local'
+    },
+
   themeConfig: {
     outline: false,
     nav: [
