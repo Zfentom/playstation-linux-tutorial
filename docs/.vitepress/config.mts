@@ -25,6 +25,8 @@ export default({
     ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/og-image.png' }]
   ],
 
+cleanUrls:true,
+
   themeConfig: {
     outline: false,
     nav: [
