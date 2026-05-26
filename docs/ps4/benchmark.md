@@ -36,7 +36,7 @@ Displays real-time performance metrics while gaming, including:
 - FPS
 - Frametime
 - CPU/GPU usage
-- Femperatures
+- Temperatures
 - Power draw
 
 ---
