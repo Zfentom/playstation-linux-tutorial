@@ -20,12 +20,10 @@ hero:
       link: https://github.com/Zfentom/playstation-linux-tutorial/
 
 features:
-  - icon:
-      src: ./public/icons/recycle.svg
+  - icon: <img src="./icons/recycle.svg" alt="Recycle" />
     title: Combat E-Waste
     details: Breathe new life into your aging hardware. Whether it's an old PS4 or a dormant PS5, transform your console into a functional workstation instead of letting it collect dust.
-  - icon: 
-      src: ./public/icons/cpu.svg
+  - icon: <img src="./icons/cpu.svg" alt="CPU" />
     title: Streamlined Setup
     details: This walks you through installation, maintenance, and optimization to turn Linux into a viable, operating system on your hardware.
 ---
