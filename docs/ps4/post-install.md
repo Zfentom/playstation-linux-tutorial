@@ -11,7 +11,7 @@ Updating your system can be a bit of a pain in the ass, as some of the packages 
 
 ::: details Arch based distros (with driver updates)
 
-- NOTE: Cachyos lite already has this repo configured.
+- NOTE: CachyOS Lite already has this repo configured.
 
 To update the drivers, you need to open the pacman config:
 ```bash
@@ -102,64 +102,6 @@ If it doesn't, add it by going here and pasting it at the end of the file:
 ```bash
 sudo nano /etc/fstab
 ```
-:::
-
-::: details Enabling ZRAM
-ZRAM on the other hand, is a part of your memory that you are compressing and allocating as swap. A kernel that supports it is necessary.
-
-This means that we trade some CPU cycles for compressing and decompressing a part of your system memory. If it is enabled by default on Android you can guess how little performance impact there is.
-
-To enable ZRAM, we need to install the `zram-generator` package.
-On Arch, we installing using:
-```bash
-sudo pacman -Syu zram-generator
-```
-
-We then create the config file:
-```bash
-sudo nano /usr/lib/systemd/zram-generator.conf
-```
-
-And we paste this inside of it:
-```bash
-[zram0]
-zram-size=ram
-compression-algorithm=zstd
-swap-priority=60
-```
-`zram-size` is how much RAM we are allocating for the ZRAM device. Possible values are, for example, `50%`, `2G` (i.e. 2 GB), `ram` or `max` for maximum allocation (all RAM is ZRAM).
-Don't change the other values unless you really know what you're doing.
-
-It is also recommended to disable ZSWAP. Some distro already do this, but just in case go to your grub config:
-```bash
-sudo nano /etc/default/grub
-```
-
-And in the `LINUX_CMDLINE_DEFAULT` check that `zswap-enabled=0` is present. If not, add it.
-
-:::
-
-::: details Disabling ZRAM (if you need to)
-To disable ZRAM, in case of swapping out kernels often for instance, you can simply remove the config file:
-```bash
-sudo rm /etc/systemd/zram-generator.conf
-```
-
-However, if you wish to completely remove it, do the following:
-```bash
-sudo systemctl disable zram-generator.service # This may not be needed
-sudo pacman -Rns zram-generator
-```
-
-Also, remove the swap partitions:
-```bash
-sudo swapoff /dev/zram0
-sudo rm /dev/zram0
-```
-
-Then reboot the system. It should be gone.
-
-Thanks again to Qba for this [showcase](https://youtu.be/f_kXks8z9dc).
 :::
 
 Oh, and don't worry if you see that your installation is using a lot of memory. It's normal and is meant to happen in order to improve performance. Check this [link](https://linuxatemyram.com) to learn more.

@@ -34,14 +34,14 @@ Install it by running ``sudo pacman -S vkmark --noconfirm`` and run with ``vkmar
 Displays real-time performance metrics while gaming, including:
 
 - FPS
-- frametime
+- Frametime
 - CPU/GPU usage
-- temperatures
-- power draw
+- Femperatures
+- Power draw
 
 ---
 
-::: details Running Mangohud
+::: details Running MangoHud
 
 - Install it by running ``sudo pacman -S mangohud --noconfirm``
 
@@ -70,6 +70,6 @@ mangohud %command%
 
 ## Steam Overlay
 
-Steam overlay can be used as a alternative to mangohud and has uses like showing the difference beetween actual rendered frames and generated one.
+Steam Overlay can be used as a alternative to mangohud and has uses like showing the difference beetween actual rendered frames and generated one.
 
 You can turn on Steam overlay by going to ``Steam settings`` → ``"In-Game"`` and selecting your preferred corner position. The overlay will then appear in your chosen corner while playing games.

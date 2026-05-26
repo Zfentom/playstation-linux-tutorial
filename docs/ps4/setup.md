@@ -2,7 +2,7 @@
 In order to install Linux on the PS4, a lot of things are needed. You may have to buy some gear to make this work.
 
 > [!DANGER]
-> Note that while Baikal is better supported now, much of it is still highly experimental because the maintainers does not have a baikal console.
+> Note that while Baikal is better supported now, much of it is still highly experimental because the maintainers does not have a Baikal console.
 
 ## Requirements
 
@@ -38,7 +38,7 @@ In the example case, the latest version of GoldHEN is used (minimum for this gui
 You need a system that is already jailbroken and has a homebrew enabler (such as GoldHEN or ps4hen) running.
 
 > [!TIP]
-> To jailbreak your PS4, you need firmware 13.02 or lower
+> To jailbreak your PS4, you currently need firmware 13.00 or lower
 > 
 > Refer to [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE) on YouTube if you haven't already.
 
@@ -101,3 +101,6 @@ In order to do that, open up your FTP file manager of choice.
 
 #### MacOS
 - Filezilla - Binary mode
+
+> [!warning]
+> If you use Filezilla, use "binary mode" to transfer files, as the FTP in GoldHen has issues when transferring files!
