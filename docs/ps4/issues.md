@@ -5,7 +5,7 @@ During the installation, things can fail. Most of this stuff is undocumented too
 It shows when booting up before installing, don't worry as it's normal because there is no installed system it can boot. You can proceed with the installation.
 :::
 
-::: details Newroot error - `mount -o ro /newroot failed`
+::: details /newroot error - `mount -o ro /newroot failed`
 If this happens, these are possible causes:
 
 1. The initramfs you are using is not the correct one. If you are installing on external, use the one called external, if you are installing for internal check if it's the one for internal, and remember to check for the southbridge.
@@ -26,7 +26,7 @@ If the installer can't find the USB device, you have two options:
 # Post-install issues
 There are a lot of undocumented issues. Or, if they are documented, I couldn't even find them because no search engine indexed those pages or they are in a foreign language.
 
-::: details Black/gray screen or "no signal"
+::: details Black/Gray screen or "no signal"
 Since kernel 6.18, display issues should mostly be fixed, so if you can use that kernel, please do. It also supports monitor hotplugging. Wait about 10 seconds or more for it to show an image in case you disconnect the cable!
 
 > [!TIP]
@@ -62,7 +62,7 @@ Again this should be fixed, otherwise keep on reading.
 
 If they don't work, it's because your console is using a Wi-Fi or Bluetooth chip that is made by MediaTek, and unfortunately you will need to find a kernel that includes the fixes for that specific chip. MediaTek does not make open source drivers, so that's the reason it doesn't work normally.
 
-Try feeRnt's kernels, hopefully one of them will work for you.
+Try feeRnt's, rmux'es kernels, they have ported MediaTek drivers.
 :::
 
 ::: details Graphical glitches in games
@@ -90,5 +90,5 @@ Basically, the scene has been run by French developers for a long time, and they
 :::
 
 ::: details How can I improve the situation?
-Join the [Discord server](https://discord.gg/DBNmGZMZ), share this tutorial, star it on GitHub (pretty please).
+Join the [Discord server](https://discord.gg/VUEZhkBcU), share this tutorial, star it on GitHub (pretty please).
 :::

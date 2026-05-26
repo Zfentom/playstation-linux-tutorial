@@ -17,7 +17,7 @@
 
 Feral Gamemode is a piece of software that optimizes system performance for gaming by temporarily adjusting settings like CPU priority and I/O operations.
 
-On Arch and arch based distros you can install it by running these commands:
+On Arch and Arch-based distros you can install it by running these commands:
 
 ```bash
 sudo pacman -S gamemode --noconfirm
