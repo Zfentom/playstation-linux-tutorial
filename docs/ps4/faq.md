@@ -4,7 +4,7 @@
 A: The lastest kernel version is 7.0.
 
 ## Q: How good is Baikal support?
-A: Baikal support has been greatly improved since the new developers joined the scene, here is the current status, but still remains experimental.
+A: Baikal support has been greatly improved since the new developers joined the scene, but still remains experimental.
 
 ## Q: Does Baikal support internal install?
 A: Yes Baikal supports internal install.
