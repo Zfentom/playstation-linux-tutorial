@@ -1,4 +1,5 @@
--# Internal HDD installation
+# Internal HDD installation
+
 Here you'll setup the internal HDD for installation of a Linux distro.
 
 > [!WARNING]

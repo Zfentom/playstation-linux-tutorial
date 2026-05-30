@@ -20,7 +20,7 @@ hero:
       link: https://github.com/Zfentom/playstation-linux-tutorial/
 
 features:
-  - icon: <img src="./icons/recycle.svg" alt="Recycle" width="32" height="32" />
+  - icon: <img src="./icons/recycle.svg" alt="Recycle"> width="32" height="32" />
     title: Combat E-Waste
     details: Breathe new life into your aging hardware. Whether it's an old PS4 or a dormant PS5, transform your console into a functional workstation instead of letting it collect dust.
   - icon: <img src="./icons/cpu.svg" alt="CPU" width="32" height="32" />
