@@ -8,12 +8,6 @@ export default({
     target: 'esnext',
     sourcemap: false,
     minify: 'esbuild',
-    terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true
-        }
-      }
   },
   plugins: [
     compression({
