@@ -2,12 +2,9 @@
 This guide wouldn't exist without Dionkill.
 
 ## Is it reversible? Will it delete all my games and saves?
-All your data will stay intact. Whether you install it on the internal HDD or an external drive, you will keep your data as you first need to exploit your console at every boot.
-
-The internal drive method actually creates a file as big as you want it to be which is going to be mounted whenever you launch Linux as its own virtual hard disk, so it won't overwrite any data you have on your console.
-For the external drive method your HDD isn't even touched at all.
-
-TLDR: yes it is reversible, and no you won't lose any data.
+Yes. No data is overwritten. The Linux setup uses either:
+- A virtual disk file (internal method)
+- Or an external drive (no internal changes)
 
 
 ## What consoles are compatible?
@@ -30,9 +27,11 @@ Here are some links you'll probably find useful. You can come back to them if ne
 
 ### Most important one [Linux for PS4 Community](https://discord.gg/VUEZhkBcU)
 
-1. YouTube - though not recommended
-2. [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE)
+- **Linux for PS4 Community**
+  https://discord.gg/VUEZhkBcU
 
+- **Modded Warfare (YouTube)**
+  https://www.youtube.com/@MODDEDWARFARE
 
 > [!TIP]
 > If you do share this tutorial, remember to mention the source and that things are subject to change.

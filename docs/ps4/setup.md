@@ -23,12 +23,15 @@ Before starting, you need to choose method of installation.
 	- You can use a pendrive, but I highly advise **NOT** to because of the slow speeds.
 
 ## PS4 system
-Some configuration is necessary on the PS4's side before we load Linux.
-### Things to note down
-Note down what you see in "Settings -> System Information":
+
+Some configuration is required on the PS4 before loading Linux.
+
+### System information to note down
+Go to **Settings → System Information** and record:
+
 - System software version
 - Southbridge
-- Your GoldHEN or ps4hen version
+- GoldHEN or ps4hen version
 
 <img src="/screenshots/system-info.webp" width="75%">
 
@@ -54,6 +57,9 @@ These are required to be able to move files and load Linux later into the guide.
 These need to be taken as a precaution, not as a necessity, as they aren't actually needed anymore.
 However, as some issues may arise on certain consoles, you should still go and tweak these settings.
 #### "Audio and Display" settings
+
+---
+
 ##### Resolution
 
 <img src="/screenshots/settings-sound-and-screen.webp" width="75%">

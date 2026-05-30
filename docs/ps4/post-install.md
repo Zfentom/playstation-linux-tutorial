@@ -74,7 +74,7 @@ sudo passwd
 And setting a new password.
 
 ## Better ram management
-To do that, we must use Swap or ZRAM. Do not use both because it will have negative effects on the ps4.
+To do that, we must use Swap.
 
 ::: details Enabling Swap
 > [!CAUTION]

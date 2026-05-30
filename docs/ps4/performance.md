@@ -13,6 +13,8 @@
 - **NTSYNC** is a Linux driver introduced in kernel 6.14 that implements some of the NT Kernel (the kernel Windows still uses today) API calls to dramatically reduce overhead when running Windows games through Wine/Proton. It can give 15–40 % more FPS in CPU-bound titles on PS4 Linux.
 :::
 
+---
+
 # Feral Gamemode
 
 Feral Gamemode is a piece of software that optimizes system performance for gaming by temporarily adjusting settings like CPU priority and I/O operations.
@@ -25,6 +27,7 @@ sudo pacman -S gamemode --noconfirm
 
 You can use it by using ``gamemoderun %command%`` in steam or ``gamemoderun *game*`` outside of steam.
 
+---
 
 # DE/WM Optimizations
 

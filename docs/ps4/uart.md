@@ -44,7 +44,6 @@ Plug the Arduino into your Device via USB.
 ## 4. Run the Script
 
 ```python
-
 python3 ps4uart.py start    # start capturing in background
 python3 ps4uart.py live     # watch output in real-time
 
