@@ -12,7 +12,7 @@ Here you'll setup the internal HDD for installation of a Linux distro.
 
 FTP to your PS4. Go to the `/data/` folder, and create the folder `/linux/boot/` and place your bzImage (and bootargs.txt if you have it) and initramfs in there.
 
-<img src="/screenshots/internal-drive-conf.webp" width="50%">
+<img src="/screenshots/internal-drive-conf.avif" width="50%">
 
 Then, go to `/user/system/`, create a folder called `boot`, and paste your distro in there. Remember that it needs to be called `psxitarch.tar.gz` or `xz`.
 
@@ -28,7 +28,7 @@ import Payloads from '../_includes/payloads.md'
 ## Installation commands
 Now that the storage is covered, here comes the moment of truth. You'll be sent to the Rescue Shell, which will look like this:
 
-<img src="/screenshots/rescue-shell.webp" width="80%">
+<img src="/screenshots/rescue-shell.avif" width="80%">
 
 - Type `install-linux-hdd.sh` or `linux-install-hdd.sh`
 - Type how much storage you want to use for the installation

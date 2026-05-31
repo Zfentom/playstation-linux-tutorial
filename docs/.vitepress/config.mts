@@ -5,9 +5,13 @@ export default({
   appearance: 'dark',
     build: {
     assetsInlineLimit: 10240,
-    target: 'esnext',
-    sourcemap: false,
-    minify: 'esbuild',
+    minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true, 
+          drop_debugger: true
+        }
+    }
   },
   plugins: [
     compression({

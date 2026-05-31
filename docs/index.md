@@ -6,7 +6,7 @@ hero:
   text: "Unlock the Full Potential of Your Old or Unused Console"
   tagline: "A comprehensive, community-driven guide made by Zfentom."
   image:
-    src: /output-test.webp
+    src: /output-test.avif
     alt: PS Linux Guide
   actions:
     - theme: brand
