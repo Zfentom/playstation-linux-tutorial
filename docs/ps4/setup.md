@@ -33,7 +33,7 @@ Go to **Settings → System Information** and record:
 - Southbridge
 - GoldHEN or ps4hen version
 
-<img src="/screenshots/system-info.avif" width="75%">
+<img src="/screenshots/system-info.avif" width="1000" height="562">
 
 In the example case, the latest version of GoldHEN is used (minimum for this guide is v2.4b18.5, version v2.4b18.7 or 18.9 are recommended), running on a Belize PS4 Slim.
 
@@ -50,7 +50,7 @@ In order to input text on your PS4, you can't use the PS4 built in keyboard, as 
 #### Payload server settings
 Remember to check the GoldHEN "Server" settings (or ps4hen's equivalent if you're using that) so that they are both enabled:
 
-<img src="/screenshots/payload-server-conf.avif" width="75%">
+<img src="/screenshots/payload-server-conf.avif" width="1000" height="562">
 
 These are required to be able to move files and load Linux later into the guide.
 ### Settings
@@ -62,9 +62,9 @@ However, as some issues may arise on certain consoles, you should still go and t
 
 ##### Resolution
 
-<img src="/screenshots/settings-sound-and-screen.avif" width="75%">
+<img src="/screenshots/settings-sound-and-screen.avif" width="1000" height="562">
 
-<img src="/screenshots/resolution.avif" width="75%">
+<img src="/screenshots/resolution.avif" width="1000" height="562">
 
 - Set your resolution to 1080p (or 720p)
 	- 4K may not work on PS4 Pro. Try 1080p first.
@@ -72,7 +72,7 @@ However, as some issues may arise on certain consoles, you should still go and t
 
 ##### RGB Color Range
 
-<img src="/screenshots/rgb-range.avif" width="75%">
+<img src="/screenshots/rgb-range.avif" width="1000" height="562">
 
 - Set your RGB color Range
 	- It may be automatically set to "Limited" even if your display supports "Full".
@@ -80,8 +80,8 @@ However, as some issues may arise on certain consoles, you should still go and t
 
 #### "System" settings
 
-<img src="/screenshots/settings-system.avif" width="75%">
-<img src="/screenshots/hdcp-and-device-link.avif" width="75%">
+<img src="/screenshots/settings-system.avif" width="1000" height="562">
+<img src="/screenshots/hdcp-and-device-link.avif" width="1000" height="562">
 
 - Check your internet connection
 	- Some models have issues if they aren't already connected to the internet.

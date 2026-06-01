@@ -57,7 +57,7 @@ sidebar: {
           ]
         },
         {
-          text: 'Installation',
+          text: 'Installation & Misc',
           collapsed: false,
           items: [
             { text: 'Internal Install', link: '/ps4/internal-installation' },
@@ -65,15 +65,10 @@ sidebar: {
             { text: 'External (Manual)', link: '/ps4/external-installation-manual' },
             { text: 'Post-Installation', link: '/ps4/post-install' },
             { text: 'Issues', link: '/ps4/issues' },
-            { text: 'Finishing up', link: '/ps4/ending' }
-
-          ]
-        },
-        {
-          text: 'Knowledge Base',
-          collapsed: false,
-          items: [
-            { text: 'FAQ', link: '/ps4/faq' }
+            { text: 'Finishing up', link: '/ps4/ending' },
+            { text: 'FAQ', link: '/ps4/faq' },
+            { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
+            { text: 'Distro DIY', link: '/ps4/distrodiy' }
           ]
         },
         {
@@ -86,15 +81,6 @@ sidebar: {
             { text: 'Benchmark', link: '/ps4/benchmark' }
           ]
         },
-        {
-          text: 'Advanced',
-          collapsed: false,
-          items: [
-            { text: 'UART', link: '/ps4/uart' },
-            { text: 'Exploit Host Setup', link: '/ps4/exploit-host' },
-            { text: 'Distro DIY', link: '/ps4/distrodiy' }
-          ]
-        }
       ],
 
       '/ps5/': [
@@ -148,7 +134,6 @@ sidebar: {
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zfentom/playstation-linux-tutorial/' },
-      { icon: 'discord', link: 'https://discord.gg/DPKHXvXb4' }
     ],
     footer: {
       message: 'Released under Apache 2.0 License',
