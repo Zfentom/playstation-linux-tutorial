@@ -16,7 +16,7 @@ export default({
   },
   plugins: [
     compression({
-     algorithms: ['gzip'],
+     algorithms: ['brotliCompress'],
      threshold: 1024,
     })
   ],
@@ -25,7 +25,7 @@ export default({
   description: 'Linux installation guides for PS4 and PS5 systems',
 
 head: [
-    ['script', { src: '/playstation-linux-tutorial/turbo.min.js', defer: true }],
+    ['script', { src: '/playstation-linux-tutorial/turbo.min.js', async: true }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.webp' }],
     ['meta', { name: 'theme-color', content: '#1ad035' }],
