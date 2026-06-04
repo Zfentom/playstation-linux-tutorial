@@ -3,7 +3,8 @@ import { compression } from 'vite-plugin-compression2'
 
 export default({
   appearance: 'dark',
-    build: {
+  mpa: true,
+  build: {
     assetsInlineLimit: 10240,
     minify: 'terser',
       terserOptions: {
@@ -23,12 +24,12 @@ export default({
   title: 'PlayStation Linux Guide',
   description: 'Linux installation guides for PS4 and PS5 systems',
 
-  head: [
+head: [
+    ['script', { src: '/playstation-linux-tutorial/turbo.min.js', defer: true }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.webp' }],
     ['meta', { name: 'theme-color', content: '#1ad035' }],
-    ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/embed.webp' },
-    ]
+    ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/embed.webp' }]
   ],
 
 cleanUrls:true,
