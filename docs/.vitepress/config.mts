@@ -27,7 +27,7 @@ export default({
 head: [
     ['script', { src: '/playstation-linux-tutorial/turbo.min.js', async: true }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
-    ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.webp' }],
+    ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.avif' }],
     ['meta', { name: 'theme-color', content: '#1ad035' }],
     ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/embed.webp' }]
   ],
