@@ -156,3 +156,7 @@
   padding-right: 0px !important; /* Adjust to control how close to the edge it sits */
 }
 
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
